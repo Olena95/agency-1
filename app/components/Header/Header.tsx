@@ -17,6 +17,7 @@ export default function Header() {
       <div className="w-3/5 flex justify-between xs:hidden md:flex">
         {headerBtn.map((btn) => (
           <Link
+            key={btn.id}
             className="text-base text-white hover:font-bold"
             href={btn.href}
           >
