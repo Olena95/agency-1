@@ -14,7 +14,8 @@ export default function FirstBlock() {
             2000, // Waits 1s
             "We will create best  social media", // Deletes 'One' and types 'Two'
             2000, // Waits 2s
-            "We will create best  bussines", // Types 'Three' without deleting 'Two'
+            "We will create best  bussines",
+            2000, // Types 'Three' without deleting 'Two'
             () => {
               console.log("Sequence completed");
             },
@@ -22,7 +23,7 @@ export default function FirstBlock() {
           wrapper="h1"
           cursor={true}
           repeat={Infinity}
-          className="xs:pl-0 xs:text-center xs:ml-5 md:text-left lg:pl-24 mb-5 text-white xs:text-2xl "
+          className="xs:pl-0 xs:text-center xs:ml-5 md:text-left lg:pl-24 mb-5 text-white xs:text-2xl md:text-4xl "
         />
 
         <h3 className="xs:pl-0 xs:text-center xs:ml-5 md:text-left lg:pl-24 mb-10 text-white">
