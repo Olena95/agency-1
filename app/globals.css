@@ -30,7 +30,37 @@
 .first-block-img {
   background-repeat: 100% 100%
 }
+
+
+.content-section__text{
+	animation: fadeIn ease 5s;
+
+}
+
+@keyframes fadeIn{
+	0% {
+	  opacity:0;
+	}
+	100% {
+	  opacity:1;
+	}
+  }
+
+  .features-item{
+	animation: scaleElem ease 1s;
+  }
+@keyframes scaleElem{
+	from {
+		transform: scaleX(0);
+	  }
+	  to {
+		transform: scaleX(1);
+	  }
+  }
 :root {
   --blue-color: #2091F9;
 }
-
+.flash-gradient{
+	background: radial-gradient(circle, rgba(162,218,2,0.5634628851540616) 0%, rgba(136,183,2,0) 61%);
+	opacity: 0.4;
+}
