@@ -26,7 +26,7 @@ export default function Features() {
     },
   ];
   return (
-    <section className="flex flex-col items-center mb-12 mt-20 ">
+    <section className="flex flex-col items-center mb-12 mt-20 xs:px-8">
       <h1 className="mb-4 xs:2/3 mb:w-1/3 text-center text-white">
         AMAZING FEATURES
       </h1>
