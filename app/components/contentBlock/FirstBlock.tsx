@@ -5,7 +5,7 @@ import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
 export default function FirstBlock() {
   return (
-    <section className="container-xl flex flex-col md:flex-row md:justify-between items-center pb-64 pt-44    ">
+    <section className="container-xl flex flex-col md:flex-row md:justify-between items-center pb-64 pt-44   xs:px-8 ">
       <div className="md:h-3/4  md:w-2/5 xs:h-full  xs:w-full bg-first-flash absolute top-0 left-0 bg-contain bg-no-repeat"></div>
       <div className="relative z-10 flex flex-col  basis-1/2 xl:basis-1/3 h-52">
         <TypeAnimation
@@ -22,7 +22,7 @@ export default function FirstBlock() {
           wrapper="h1"
           cursor={true}
           repeat={Infinity}
-          className="xs:pl-0 xs:text-center xs:ml-5 md:text-left lg:pl-24 mb-5 text-white "
+          className="xs:pl-0 xs:text-center xs:ml-5 md:text-left lg:pl-24 mb-5 text-white xs:text-2xl "
         />
 
         <h3 className="xs:pl-0 xs:text-center xs:ml-5 md:text-left lg:pl-24 mb-10 text-white">
