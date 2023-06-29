@@ -8,13 +8,23 @@ module.exports = {
   theme: {
     colors: {
       white: "#FFFFFF",
-      blue: "#2091F9",
-      "dark-blue": "#252B42",
-      "hover-blue": "#2A7CC7",
+      "light-green": "#88B702",
+      "hover-green": "#2A7CC7",
       "light-gray": "#DEDEDE",
       "semi-gray": "#737373",
+      "background-black": "#050605",
+      "dark-gray": "rgba(255, 255, 255, 0.10)",
     },
     extend: {
+      animation: {
+        fadeIn: "fadeIn 2s ease-in forwards",
+      },
+      keyframes: {
+        fadeIn: {
+          "0%": { opacity: 0 },
+          "100%": { opacity: 1 },
+        },
+      },
       screens: {
         xs: "320px",
         sm: "640px",
@@ -34,6 +44,8 @@ module.exports = {
       },
       backgroundImage: {
         "first-block": "url('/images/First-block.png')",
+        "first-flash": "url('/images/flash/flash1.png')",
+        "second-flash": "url('/images/flash/flash2.png')",
       },
       height: {
         128: "120%",
